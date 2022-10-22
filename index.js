@@ -19,11 +19,11 @@ function funcion(){
 
 const botonquecambiadecolor=document.getElementById("botondeprueba");
 botonquecambiadecolor.addEventListener('mouseover',function(){
-    this.style.backgroundColor="red";
+    this.style.backgroundColor="black";
 });
 const botonquecambiadecolor_=document.getElementById("botondeprueba");
 botonquecambiadecolor_.addEventListener('mouseout',function(){
-    this.style.backgroundColor="white";
+    this.style.backgroundColor="red";
     this.style.cursor="pointer";
 });
 
